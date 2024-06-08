@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <span class="display-block">
-                    <a class="header-requestbtn hvr-bounce-to-right " href="#">Request A Quote</a>
+                    <a class="header-requestbtn hvr-bounce-to-right " href="{{ route('contact') }}">Request A Quote</a>
                 </span>
             </div>
         </div>
@@ -46,7 +46,7 @@
                     <li><a href="{{ route('company') }}">Company</a></li>
 
                     <li class="dropdown">
-                        <a href="about.html">Products</a><i class="fa fa-chevron-down"></i>
+                        <a href="">Products</a><i class="fa fa-chevron-down"></i>
                         <ul class="dropdown-submenu">
                             <li><a href="#0">Barbed Wire</a></li>
                             <li><a href="#0">Chain link Fencing</a></li>

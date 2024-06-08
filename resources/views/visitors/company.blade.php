@@ -18,19 +18,18 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bestthing-text-column">
-                        <h3>why choose us</h3>
-                        <p class="fnt-17">Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue
-                            laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Donec id elit non mi porta
-                            gravida at eget metus. Aenean lacinia. </p>
+                        <h3>why choose<br><span style="color: #f0cb72">B M Jain Steel Co.</span></h3>
+                        <p class="fnt-17"><b>B M Jain Steel Co.</b> is a leading <b>Barbed Wire Manufacturers in Dholpur.</b> Our company is known for supplying a wide range of
+                        superior quality fence and wire mesh Products since 1995.. </p>
                         <ul class="choose-list">
-                            <li>Vestibulum id ligula</li>
-                            <li>Mattis Fringilla Ultricies</li>
-                            <li>Egestas Fermentum</li>
-                            <li>Adipiscing Vulputate</li>
-                            <li>Vestibulum id ligula</li>
-                            <li>Mattis Fringilla Ultricies</li>
-                            <li>Egestas Fermentum</li>
-                            <li>Adipiscing Vulputate</li>
+                           <b> <li>25+ Years Of Experience In This Field</li>
+                            <li>We Use High-quality Raw Materials</li>
+                            <li>We have a spacious manufacturing unit</li>
+                            <li>We serve you the quality products</li>
+                             <li>Timely Delivery</li>
+                            <li>Round-The-Clock Support</li></b>
+                            {{-- <li>Egestas Fermentum</li>
+                            <li>Adipiscing Vulputate</li> --}}
                         </ul>
                     </div>
                 </div>

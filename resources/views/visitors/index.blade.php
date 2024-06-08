@@ -153,9 +153,10 @@
          </div>
       </div>
    </section>
+
    <!--=========Services end============-->
    <!--=========Wordpress Bestthing Start============-->
-   <section class="bestthing-section">
+   {{-- <section class="bestthing-section">
       <div class="container">
          <div class="row ">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bestthing-text-column">
@@ -171,12 +172,13 @@
       <div class="bestthing-img">
          <img src="images/wordpress-bg-img.png" class="img-responsive" alt="wordpress-image">
       </div>
-   </section>
+   </section> --}}
    <!--=========Wordpress Bestthing end============-->
    <!--=========Recent Project Start============-->
 
    <!--=========Recent Project end============-->
    <!--=========High Quality Start============-->
+<hr>
    <section class="pad95-45-top-bottom">
       <div class="container">
          <h3 class="text-center" style="    margin-bottom: 40px;">Our Products</h3>

@@ -4,7 +4,7 @@
         <div class="container">
             <h5>For Any Solution We Are <span>Available</span> For You</h5>
             <a data-animation="animated fadeInUp" class="header-requestbtn contactus-btn hvr-bounce-to-right"
-                href="contact.html">Contact us</a>
+                href="{{ route('contact') }}">Contact us</a>
         </div>
     </div>
     <div class="ftr-section">
@@ -12,7 +12,7 @@
             <ul class="footer-info">
                 <li class="ftr-loc">G-103 Pearl Emerald <br>Building Jaipur House, <br>Agra (UP)</li>
                 <li class="ftr-phn"><a href="tel: +91 74550 29003">+91 74550 29003</a></li>
-                <li class="ftr-msg"><a href="mailto:exports@bmjainsteel.com">exports@bmjainsteel.com</a></li>
+                <li class="ftr-msg"><a href="mailto:exports@bmjainsteel.com">exports@bmjainsteel</a></li>
                 <li class="ftr-support">9 To 5 Working Hours</li>
             </ul>
             <div class="row">
@@ -23,14 +23,18 @@
                     <a class="ftr-read-more" href="about.html">Read More</a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 ftr-sol-column">
-                    <h6>Our Solutions</h6>
+                    <h6>Our Products</h6>
                     <ul class="footer-link">
-                        <li><a href="manufacturing.html">- Manufacturing</a></li>
-                        <li><a href="cnc-industry.html">- CNC Industry</a></li>
-                        <li><a href="chemical-industry.html">- Chemical Industry</a></li>
-                        <li><a href="energy-engineering.html">- Energy Engineering</a></li>
-                        <li><a href="oil-industry.html">- Oil Industry</a></li>
-                        <li><a href="material-engineering.html">- Material Engineering</a></li>
+                        <li><a href="manufacturing.html">- Barbed Wire</a></li>
+                        <li><a href="cnc-industry.html">- Chain link Fencing</a></li>
+                        <li><a href="chemical-industry.html">- Further Drawn Wire</a></li>
+                        <li><a href="energy-engineering.html">- GI Welded Wire Mesh</a></li>
+                        <li><a href="oil-industry.html">- Hot Dip Galvanized Wire</a></li>
+                        <li><a href="material-engineering.html">- HB Wire</a></li>
+                        <li><a href="material-engineering.html">- MS Welded Wire Mesh</a></li>
+                        <li><a href="material-engineering.html">- Nail Wire</a></li>
+                        <li><a href="material-engineering.html">- Commercial GI Wire</a></li>
+                        <li><a href="material-engineering.html">- Redraw Wire</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 col-sm-6 col-xs-12 ftr-link-column">
@@ -51,13 +55,13 @@
                         <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
-                    <span class="ftr-logo img"><img src="images/ftr-logo.png" class="img-responsive"
-                            alt="logo-image"></span>
+                    <span class="ftr-logo img"><a href="{{ route('home') }}"><img src="images/logo-white.png" class="img-responsive"
+                            alt="logo-image"></a></span>
                 </div>
             </div>
             <div class="footer-btm">
                 <div class="col-md-6 col-sm-6 col-xs-12 pad-left_zero pad-right_zero">
-                    <p>Copyright © 2024 Bm Jain Steel. All Rights Reserved.</p>
+                    <p>Copyright © 2024 Bm Jain Steel.All Rights Reserved.</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 pad-left_zero pad-right_zero pull-right">
                     <p class="text-right">Developed by: <a
