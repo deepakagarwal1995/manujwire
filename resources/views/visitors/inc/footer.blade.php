@@ -20,7 +20,7 @@
                     <h6>About Us</h6>
                     <p class="marbtm20 line-height26">B M Jain Steel Co. is a leading Barbed Wire Mesh Manufacturers in Agra. Our company is known for supplying a wide range
                     of superior quality fence and wire mesh products since 1995.</p>
-                    <a class="ftr-read-more" href="about.html">Read More</a>
+                    <a class="ftr-read-more" href="{{ route('company') }}">Read More</a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 ftr-sol-column">
                     <h6>Our Products</h6>

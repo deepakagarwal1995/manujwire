@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EnquiryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,9 @@ Route::view('/redraw', 'visitors.redrawwire')->name('redraw');
 Route::view('/company', 'visitors.company')->name('company');
 Route::view('/contact', 'visitors.contact')->name('contact');
 Route::view('/distributor', 'visitors.distributor')->name('distributor');
+Route::post('form-action', [EnquiryController::class, 'store'])->name('formaction');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+

@@ -85,3 +85,23 @@
     </nav>
 </header>
 <!--=========header end============-->
+<script>
+    function check_validation(){
+	var email = $('#formGroupExampleInput2').val();
+	var contact = $('#formGroupExampleInput3').val();
+	//alert(contact.length);
+	if(email != ''){
+		var atpos=email.indexOf("@");
+		var dotpos=email.lastIndexOf(".");
+		if(atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length){
+		  alert("Please Provide Valid Email");
+		  return false;
+		}
+	}
+	if(contact != '' && (contact.length<10 || isNaN(contact))){
+		alert("Please Enter Valid Contact.");
+		return false;
+	}
+	//alert("hello");
+}
+</script>
