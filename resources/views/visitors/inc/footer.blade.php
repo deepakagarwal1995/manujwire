@@ -10,10 +10,10 @@
     <div class="ftr-section">
         <div class="container">
             <ul class="footer-info">
-                <li class="ftr-loc">G-103 Pearl Emerald <br>Building Jaipur House, <br>Agra (UP)</li>
-                <li class="ftr-phn"><a href="tel: +91 74550 29003">+91 74550 29003</a></li>
-                <li class="ftr-msg"><a href="mailto:exports@bmjainsteel.com">exports@bmjainsteel</a></li>
-                <li class="ftr-support">9 To 5 Working Hours</li>
+                <li class="ftr-loc" style="color: white">G-103 Pearl Emerald <br>Building Jaipur House, <br>Agra (UP)</li>
+                <li class="ftr-phn"><a href="tel: +91 74550 29003" style="color: white">+91 74550 29003</a></li>
+                <li class="ftr-msg"><a href="mailto:exports@bmjainsteel.com"style="color: white">exports@bmjainsteel</a></li>
+                <li class="ftr-support"style="color: white">9 To 5 Working Hours</li>
             </ul>
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12  ftr-about-text">
