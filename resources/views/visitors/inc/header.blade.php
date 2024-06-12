@@ -48,7 +48,7 @@
                     <li class="dropdown">
                         <a href="">Products</a><i class="fa fa-chevron-down"></i>
                         <ul class="dropdown-submenu">
-                            <li><a href="#0">Barbed Wire</a></li>
+                            <li><a href="{{ route('barbed') }}">Barbed Wire</a></li>
                             <li><a href="#0">Chain link Fencing</a></li>
                             <li><a href="#0">Further Drawn Wire</a></li>
                             <li><a href="#0">GI Welded Wire Mesh</a></li>

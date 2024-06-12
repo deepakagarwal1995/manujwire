@@ -21,6 +21,7 @@ Route::view('/redraw', 'visitors.redrawwire')->name('redraw');
 Route::view('/company', 'visitors.company')->name('company');
 Route::view('/contact', 'visitors.contact')->name('contact');
 Route::view('/distributor', 'visitors.distributor')->name('distributor');
+Route::view('/barbed', 'visitors.barbed')->name('barbed');
 Route::post('form-action', [EnquiryController::class, 'store'])->name('formaction');
 
 Route::group(['prefix' => 'admin'], function () {
