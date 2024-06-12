@@ -25,16 +25,16 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 ftr-sol-column">
                     <h6>Our Products</h6>
                     <ul class="footer-link">
-                        <li><a href="manufacturing.html">- Barbed Wire</a></li>
-                        <li><a href="cnc-industry.html">- Chain link Fencing</a></li>
-                        <li><a href="chemical-industry.html">- Further Drawn Wire</a></li>
-                        <li><a href="energy-engineering.html">- GI Welded Wire Mesh</a></li>
-                        <li><a href="oil-industry.html">- Hot Dip Galvanized Wire</a></li>
-                        <li><a href="material-engineering.html">- HB Wire</a></li>
-                        <li><a href="material-engineering.html">- MS Welded Wire Mesh</a></li>
-                        <li><a href="material-engineering.html">- Nail Wire</a></li>
-                        <li><a href="material-engineering.html">- Commercial GI Wire</a></li>
-                        <li><a href="material-engineering.html">- Redraw Wire</a></li>
+                        <li><a href="{{ route('barbed-wire') }}">Barbed Wire</a></li>
+                        <li><a href="{{ route('chain-link-fencing') }}">Chain link Fencing</a></li>
+                        <li><a href="{{ route('further-drawn-wire') }}">Further Drawn Wire</a></li>
+                        <li><a href="{{ route('gi-welded-wire-mesh') }}">GI Welded Wire Mesh</a></li>
+                        <li><a href="{{ route('hot-dip-galvnized-wire') }}">Hot Dip Galvanized Wire</a></li>
+                        <li><a href="{{ route('hb-wire') }}">HB Wire</a></li>
+                        <li><a href="{{ route('ms-welded-wire-mesh') }}">MS Welded Wire Mesh</a></li>
+                        <li><a href="{{ route('nail-wire') }}"">Nail Wire</a></li>
+                        <li><a href=" {{ route('commercial-gi-wire') }}">Commercial GI Wire</a></li>
+                        <li><a href="{{ route('redraw-wire') }}">Redraw Wire</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 col-sm-6 col-xs-12 ftr-link-column">

@@ -14,10 +14,10 @@
                         </h1>
                         <p data-animation="animated fadeInDown"><b>BM Jain Steel Co.</b> is one of the leading <b>Barbed Wire Manufacturers in Rajasthan.</b> One of the industry leaders in the
                         creation of open area security fences and barbed wire security wall cables is our business.</p>
-                        <a data-animation="animated fadeInUp" href="about.html"
-                           class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a>
-                        <a data-animation="animated fadeInUp" href="services.html"
-                           class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Our Solution</a>
+                        {{-- <a data-animation="animated fadeInUp" href="{{ route('barbed-wire') }}"
+                           class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a> --}}
+                        <a data-animation="animated fadeInUp" href="{{ route('barbed-wire') }}"
+                           class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Learn More</a>
                      </div>
                   </div>
                </div>
@@ -30,10 +30,10 @@
                      <div class="content home1-slides">
                         <h1 data-animation="animated fadeInUp">Chain Link <span>Fence</span> </h1>
                         <p data-animation="animated fadeInDown"><b>B M Jain Steel Co.</b> is one of the leading Chain link Fencing Manufacturers in Rajasthan.</p>
-                        <a data-animation="animated fadeInUp" href="about.html"
-                           class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a>
-                        <a data-animation="animated fadeInUp" href="services.html"
-                           class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Our Solution</a>
+                        {{-- <a data-animation="animated fadeInUp" href="{{ route('chain-link-fencing') }}"
+                           class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a> --}}
+                         <a data-animation="animated fadeInUp" href="{{ route('chain-link-fencing') }}"
+                           class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Learn More</a>
                      </div>
                   </div>
                </div>
@@ -46,10 +46,10 @@
                      <div class="content home1-slides">
                         <h1 data-animation="animated fadeInUp"><span>Galvanized</span> Wire </h1>
                         <p data-animation="animated fadeInDown"><b>BM Jain Steel Co. </b>is one of the leading <b>Hot Dip Galvanized Wire Manufacturers in Rajasthan.</b></p>
-                        <a data-animation="animated fadeInUp" href="about.html"
-                           class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a>
-                        <a data-animation="animated fadeInUp" href="services.html"
-                           class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Our Solution</a>
+                        {{-- <a data-animation="animated fadeInUp" href="{{ route('hot-dip-galvnized-wire') }}"
+                           class="header-requestbtn learn-more hvr-bounce-to-right">learn more</a> --}}
+                         <a data-animation="animated fadeInUp" href="{{ route('hot-dip-galvnized-wire') }}"
+                           class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Learn More</a>
                      </div>
                   </div>
                </div>
@@ -72,7 +72,7 @@
          <h5 style="font-weight: 500;font-size: 18px;">24 Years Expertise in the Industry and Counting…</h5>
          </div>
          <div class="col-lg-3 col-md-4 col-xs-12 col-centered" style="text-align:center">
-         <a href="#" class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Get A Quick Quote</a>
+         <a href="{{ route('contact') }}" class="header-requestbtn learn-more our-solution hvr-bounce-to-right">Get A Quick Quote</a>
       </div>
       </div>
    </div>
@@ -80,104 +80,9 @@
 
    </section>
    <!--=========Services Start============-->
-   <section class="pad100-70-top-bottom">
-      <div class="container">
-         <div class="row ">
-            <div class="head-section wdt-100">
-               <div class="col-lg-5 col-md-6 col-sm-4 col-xs-12">
-                  <h3>Services & Solutions</h3>
-               </div>
-               <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12">
-                  <p class="fnt-18">Our team has years of experience and ability to produce profitable products. We use high-grade raw materials and
-                advanced technology in our process, and we ensure its quality within competitive market prices.</p>
-               </div>
-            </div>
-            <div class="col-md-12">
-               <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
-                  <a href="manufacturing.html">
-                     <span class="icons service-manufactureicon"></span>
-                     <h5>MANUFACTURING</h5>
-                     <p class="line-height26 marbtm20">We offer a full service from a to z, <span>top quality
-                           products</span> with spot on deadlines. </p>
-                     <span class="read-more-link">Read More</span>
-                  </a>
-               </div>
-               <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
-                  <a href="cnc-industry.html">
-                     <span class="icons service-cncicon"></span>
-                     <h5>CNC INDUSTRY</h5>
-                     <p class="line-height26 marbtm20"><span>Maintenance</span> of our products is critical for long
-                        lasting quality. Choose the right partner. </p>
-                     <span class="read-more-link">Read More</span>
-                  </a>
-               </div>
-               <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
-                  <a href="chemical-industry.html">
-                     <span class="icons service-chemicalicon"></span>
-                     <h5>CHEMICAL INDUSTRY</h5>
-                     <p class="line-height26 marbtm20">Our factories uphold the <span>top world standards,</span>
-                        responsible towards environment.</p>
-                     <span class="read-more-link">Read More</span>
-                  </a>
-               </div>
-               <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
-                  <a href="energy-engineering.html">
-                     <span class="icons service-energyicon"></span>
-                     <h5>ENERGY ENGINEERING</h5>
-                     <p class="line-height26 marbtm20">Our finished products go trough <span>rigorous
-                           testing</span> and are delivered on time.
-                     </p>
-                     <span class="read-more-link">Read More</span>
-                  </a>
-               </div>
-               <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
-                  <a href="oil-industry.html">
-                     <span class="icons service-oilicon"></span>
-                     <h5>OIL INDUSTRY</h5>
-                     <p class="line-height26 marbtm20">Our <span>own transport</span> gives us control over your
-                        delivery. We take pride in our delivery times. </p>
-                     <span class="read-more-link">Read More</span>
-                  </a>
-               </div>
-               <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
-                  <a href="material-engineering.html">
-                     <span class="icons service-materialicon"></span>
-                     <h5>MATERIAL ENGINEERING</h5>
-                     <p class="line-height26 marbtm20"><span>Top of the line machinery,</span> highly educated
-                        employees and great working environment.
-                     </p>
-                     <span class="read-more-link">Read More</span>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
 
-   <!--=========Services end============-->
-   <!--=========Wordpress Bestthing Start============-->
-   {{-- <section class="bestthing-section">
-      <div class="container">
-         <div class="row ">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bestthing-text-column">
-               <h2>THE NEXT BEST THING IN
-                  <span>INDUSTRY WORDPRESS</span>
-               </h2>
-               <p class="fnt-17">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                  laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi dicta sunt
-                  explicabo.</p>
-            </div>
-         </div>
-      </div>
-      <div class="bestthing-img">
-         <img src="images/wordpress-bg-img.png" class="img-responsive" alt="wordpress-image">
-      </div>
-   </section> --}}
-   <!--=========Wordpress Bestthing end============-->
-   <!--=========Recent Project Start============-->
 
-   <!--=========Recent Project end============-->
-   <!--=========High Quality Start============-->
+
 <hr>
    <section class="pad95-45-top-bottom">
       <div class="container">
@@ -191,7 +96,7 @@
                   </span> </a>
                <h4> HOT DIP GALVANIZED WIRE</h4>
 
-               <span class="read-more-link"><a href="#">Read More</a></span>
+               <span class="read-more-link"><a href="{{ route('hot-dip-galvnized-wire') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                <a href="#">
@@ -199,7 +104,7 @@
                         class="img-responsive zoom_img_effect" alt="CNC-image"></span></a>
                <h4> CHAIN LINK FENCING</h4>
 
-               <span class="read-more-link"><a href="#">Read More</a></span>
+               <span class="read-more-link"><a href="{{ route('chain-link-fencing') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                <a href="#">
@@ -208,7 +113,7 @@
                   </span> </a>
                <h4> FURTHER DRAWN WIRE</h4>
 
-               <span class="read-more-link"><a href="#">Read More</a></span>
+               <span class="read-more-link"><a href="{{ route('further-drawn-wire') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                <a href="#">
@@ -216,7 +121,7 @@
                         alt="CNC-image"></span></a>
                <h4> BARBED WIRE</h4>
 
-               <span class="read-more-link"><a href="#">Read More</a></span>
+               <span class="read-more-link"><a href="{{ route('barbed-wire') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                <a href="#">
@@ -225,7 +130,7 @@
                   </span> </a>
                <h4> GI WELDED WIRE MESH</h4>
 
-               <span class="read-more-link"><a href="#">Read More</a></span>
+               <span class="read-more-link"><a href="{{ route('gi-welded-wire-mesh') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                <a href="#">
@@ -233,7 +138,7 @@
                         alt="CNC-image"></span></a>
                <h4> HB WIRE</h4>
 
-               <span class="read-more-link"><a href="#">Read More</a></span>
+               <span class="read-more-link"><a href="{{ route('hb-wire') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                 <a href="#">
@@ -241,7 +146,7 @@
                             alt="CNC-image"></span></a>
                 <h4> NAIL WIRE</h4>
 
-                <span class="read-more-link"><a href="#">Read More</a></span>
+                <span class="read-more-link"><a href="{{ route('nail-wire') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                 <a href="#">
@@ -250,7 +155,7 @@
                     </span> </a>
                 <h4>MS WELDED WIRE MESH</h4>
 
-                <span class="read-more-link"><a href="#">Read More</a></span>
+                <span class="read-more-link"><a href="{{ route('ms-welded-wire-mesh') }}">Read More</a></span>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 home3-service-column marbtm50">
                 <a href="#">
@@ -258,7 +163,7 @@
                             alt="CNC-image"></span></a>
                 <h4>COMMERCIAL GI WIRE</h4>
 
-                <span class="read-more-link"><a href="#">Read More</a></span>
+                <span class="read-more-link"><a href="{{ route('commercial-gi-wire') }}">Read More</a></span>
             </div>
 
          </div>
@@ -269,7 +174,7 @@
 <!--=========Emergency end============-->
 
 <!--=========Success Story Start============-->
-<section class=" success_story">
+{{-- <section class=" success_story">
    <div class="container">
       <div class="row">
          <div class="success_story_content">
@@ -361,7 +266,7 @@
          </div>
       </div>
    </div>
-</section>
+</section> --}}
 <!--=========Success Story end============-->
    <!--=========Testimonial Start============-->
    <section class="testimonial-section">
@@ -431,7 +336,7 @@
       </div>
    </section>
    <!--=========Testimonial end============-->
-   <section class="pad95-70-top-bottom">
+   {{-- <section class="pad95-70-top-bottom">
       <div class="container">
          <!--=========Latest News Start============-->
          <div class="row">
@@ -501,7 +406,7 @@
 
          <!--=========Our Client end============-->
       </div>
-   </section>
+   </section> --}}
    <div class="google-maps">
       <iframe
          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804"></iframe>

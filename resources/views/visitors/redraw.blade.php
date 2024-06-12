@@ -1,13 +1,13 @@
-@extends('visitors.layouts.visitors',['title' => 'hb-wire'])
+@extends('visitors.layouts.visitors',['title' => 'redraw-wire'])
 @section('content')
 <!--=========Banner Start============-->
 <div class="inner-pages-bnr">
     <img src="images/manufacturing-banner.jpg" class="img-responsive" alt="Manufacturing-banner-image">
     <div class="banner-caption">
-        <h1>HB Wire</h1>
+        <h1>Redraw Wire</h1>
         <ul class="breadcumb">
             <li><a href="{{ route('home') }}">Home</a> - </li>
-            <li>HB Wire</li>
+            <li>Redraw Wire</li>
         </ul>
     </div>
 </div>
@@ -37,34 +37,29 @@
                 </div>
                 <div class="specialization-cl">
                     <div class="special-img image_hover">
-                        <img src="images\hbwire.jpg" class="img-responsive zoom_img_effect" alt="special-image">
+                        <img src="images\redrawwire.jpg" class="img-responsive zoom_img_effect" alt="special-image">
                     </div>
                     <div class="special-text">
-                        <h3>HB Wire</h3>
-                        <p class=" mar-btm20">BM Jain Steel Co. is one of the leading HB Wire Manufacturers in Rajasthan. Before reaching end users, our extensive
-                        selection of HB Wires has completed annealing, rust removal, acid cleaning, and coiling. The wires can be used to create
-                        shaped cables, fasteners, automobile cables, and handcrafted goods. Also, these help in the ion of welded wire mesh,
-                        screws, and wire nails. Also, the wires are utilised to create bucket handles, among other things. Extreme strength and
-                        toughness are offered by the HB wires. These wires guarantee complete strength and are absolutely necessary for the
-                        building industry. These have a thickness that makes them ideal for both industrial and home purposes, which is their
-                        principal advantage.
+                        <h3>Redraw Wire</h3>
+                        <p class=" mar-btm20">BM Jain Steel Co. is one of the leading Redraw Wire Manufacturers in Rajasthan. Redraw wires are difficult to craft, and
+                        we know accurately how to do it. In case you are looking for the best redraw wires available. We got you. All the wires
+                        that we manufacture are molded and cut through advanced machinery so that the precision of these wires is up to the
+                        mark.
                     </div>
                 </div>
                 <div>
                     <p>
-                        As a leading HB Wire Manufacturer in Dholpur, Such wires have a matte polished surface that is entirely durable. These
-                        wires' major characteristics include an excellent surface finish, maximum durability, top-notch quality, and affordable
-                        pricing. These wires have been examined in terms of their working lifespan, surface quality, choice of raw materials,
-                        etc.
+                       As a leading Redraw Wire Manufacturer in Dholpur, the redraw wires manufactured by us come in matte finish. Also, the
+                    wires produced by us can be drawn into fine diameters without even struggling. The material used in these wires is of
+                    high quality and comes from the best raw material exporters in India.
                     </p>
                 </div>
                 <br>
                 <br>
                 <div>
                     <p>
-                       As one of the best HB Wire Suppliers in India, These are mostly employed in the manufacture of vehicle cables,
-                    fasteners, wire nails, bolts, spokes, screws, handcrafted goods, and attachments for shoe nails, among other items.
-                    These have strong tensile and ductile strength. Our HB wire has a standard thickness and high corrosion resistance.
+                        As one of the best Redraw Wire Suppliers in India, the main advantage of using redraw wires is to draw them into finer
+                        wires so that these can be used in construction.
                     </p>
                 </div>
                 <br>
@@ -122,11 +117,11 @@
                     <li><a href="{{ route('further-drawn-wire') }}">Further Drawn Wire</a></li>
                     <li><a href="{{ route('gi-welded-wire-mesh') }}">GI Welded Wire Mesh</a></li>
                     <li><a href="{{ route('hot-dip-galvnized-wire') }}">Hot Dip Galvanized Wire</a></li>
-                    <li><a href="{{ route('hb-wire') }}"class="active-category">HB Wire</a></li>
+                    <li><a href="{{ route('hb-wire') }}">HB Wire</a></li>
                     <li><a href="{{ route('ms-welded-wire-mesh') }}">MS Welded Wire Mesh</a></li>
                     <li><a href="{{ route('nail-wire') }}">Nail Wire</a></li>
                     <li><a href="{{ route('commercial-gi-wire') }}">Commercial GI Wire</a></li>
-                    <li><a href="{{ route('redraw-wire') }}">Redraw Wire</a></li>
+                    <li><a href="{{ route('redraw-wire') }}"class="active-category">Redraw Wire</a></li>
                 </ul>
                 <div class="contact-help">
                     <div class="office-info-col wdt-100">

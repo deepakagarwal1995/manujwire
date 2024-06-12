@@ -21,7 +21,16 @@ Route::view('/redraw', 'visitors.redrawwire')->name('redraw');
 Route::view('/company', 'visitors.company')->name('company');
 Route::view('/contact', 'visitors.contact')->name('contact');
 Route::view('/distributor', 'visitors.distributor')->name('distributor');
-Route::view('/barbed', 'visitors.barbed')->name('barbed');
+Route::view('/barbed-wire', 'visitors.barbed')->name('barbed-wire');
+Route::view('/chain-link-fencing', 'visitors.chainlink')->name('chain-link-fencing');
+Route::view('/further-drawn-wire', 'visitors.furtherdrawn')->name('further-drawn-wire');
+Route::view('/gi-welded-wire-mesh', 'visitors.welded')->name('gi-welded-wire-mesh');
+Route::view('/hot-dip-galvnized-wire', 'visitors.galvnized')->name('hot-dip-galvnized-wire');
+Route::view('/hb-wire', 'visitors.hbwire')->name('hb-wire');
+Route::view('/ms-welded-wire-mesh', 'visitors.mswire')->name('ms-welded-wire-mesh');
+Route::view('/nail-wire', 'visitors.nailwire')->name('nail-wire');
+Route::view('/commercial-gi-wire', 'visitors.commercialwire')->name('commercial-gi-wire');
+Route::view('/redraw-wire', 'visitors.redraw')->name('redraw-wire');
 Route::post('form-action', [EnquiryController::class, 'store'])->name('formaction');
 
 Route::group(['prefix' => 'admin'], function () {

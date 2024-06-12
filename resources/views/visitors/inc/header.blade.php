@@ -48,16 +48,16 @@
                     <li class="dropdown">
                         <a href="">Products</a><i class="fa fa-chevron-down"></i>
                         <ul class="dropdown-submenu">
-                            <li><a href="{{ route('barbed') }}">Barbed Wire</a></li>
-                            <li><a href="#0">Chain link Fencing</a></li>
-                            <li><a href="#0">Further Drawn Wire</a></li>
-                            <li><a href="#0">GI Welded Wire Mesh</a></li>
-                            <li><a href="#0">Hot Dip Galvanized Wire</a></li>
-                            <li><a href="#0">HB Wire</a></li>
-                            <li><a href="#0">MS Welded Wire Mesh</a></li>
-                            <li><a href="#0"">Nail Wire</a></li>
-                            <li><a href=" #0">Commercial GI Wire</a></li>
-                            <li><a href="">Redraw Wire</a></li>
+                            <li><a href="{{ route('barbed-wire') }}">Barbed Wire</a></li>
+                            <li><a href="{{ route('chain-link-fencing') }}">Chain link Fencing</a></li>
+                            <li><a href="{{ route('further-drawn-wire') }}">Further Drawn Wire</a></li>
+                            <li><a href="{{ route('gi-welded-wire-mesh') }}">GI Welded Wire Mesh</a></li>
+                            <li><a href="{{ route('hot-dip-galvnized-wire') }}">Hot Dip Galvanized Wire</a></li>
+                            <li><a href="{{ route('hb-wire') }}">HB Wire</a></li>
+                            <li><a href="{{ route('ms-welded-wire-mesh') }}">MS Welded Wire Mesh</a></li>
+                            <li><a href="{{ route('nail-wire') }}"">Nail Wire</a></li>
+                            <li><a href="{{ route('commercial-gi-wire') }}">Commercial GI Wire</a></li>
+                            <li><a href="{{ route('redraw-wire') }}">Redraw Wire</a></li>
                      </ul>
                   </li>
                   <li><a href="{{ route('distributor') }}">Become A Distributor</a></li>

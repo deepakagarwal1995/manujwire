@@ -38,9 +38,88 @@
                 <img src="images/why-choose-bg.png" class="img-responsive" alt="choose-image">
             </div>
         </section>
+        <hr>
         <!--=========Why Choose end============-->
         <!--=========Company History Start============-->
-        <section class="history-section">
+        <section class="pad100-70-top-bottom">
+            <div class="container">
+                <div class="row ">
+                    <div class="head-section wdt-100">
+                        <div class="col-lg-5 col-md-6 col-sm-4 col-xs-12">
+                            <h3>Services & Solution</h3>
+                        </div>
+
+                        <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12">
+                            <p class="fnt-18">Our team has years of experience and ability to produce profitable products. We
+                                use high-grade raw materials and
+                                advanced technology in our process, and we ensure its quality within competitive market prices.
+                            </p>
+                        </div>
+
+                    </div>
+                    <h1 class="text-center" >Industries where our products are used</h1>
+                    <div class="col-md-12" style="margin-top: 35px">
+                        <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                            <a href="manufacturing.html">
+                                <span class="icons service-manufactureicon"></span>
+                                <h5>MANUFACTURING</h5>
+                                <p class="line-height26 marbtm20">We offer a full service from a to z, <span>top quality
+                                        products</span> with spot on deadlines. </p>
+                                {{-- <span class="read-more-link">Read More</span> --}}
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                            <a href="cnc-industry.html">
+                                <span class="icons service-cncicon"></span>
+                                <h5>CNC INDUSTRY</h5>
+                                <p class="line-height26 marbtm20"><span>Maintenance</span> of our products is critical for long
+                                    lasting quality. Choose the right partner. </p>
+                                {{-- <span class="read-more-link">Read More</span> --}}
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                            <a href="chemical-industry.html">
+                                <span class="icons service-chemicalicon"></span>
+                                <h5>CHEMICAL INDUSTRY</h5>
+                                <p class="line-height26 marbtm20">Our factories uphold the <span>top world standards,</span>
+                                    responsible towards environment.</p>
+                                {{-- <span class="read-more-link">Read More</span> --}}
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                            <a href="energy-engineering.html">
+                                <span class="icons service-energyicon"></span>
+                                <h5>ENERGY ENGINEERING</h5>
+                                <p class="line-height26 marbtm20">Our finished products go trough <span>rigorous
+                                        testing</span> and are delivered on time.
+                                </p>
+                                {{-- <span class="read-more-link">Read More</span> --}}
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                            <a href="oil-industry.html">
+                                <span class="icons service-oilicon"></span>
+                                <h5>OIL INDUSTRY</h5>
+                                <p class="line-height26 marbtm20">Our <span>own transport</span> gives us control over your
+                                    delivery. We take pride in our delivery times. </p>
+                                {{-- <span class="read-more-link">Read More</span> --}}
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 service-column text-center">
+                            <a href="material-engineering.html">
+                                <span class="icons service-materialicon"></span>
+                                <h5>MATERIAL ENGINEERING</h5>
+                                <p class="line-height26 marbtm20"><span>Top of the line machinery,</span> highly educated
+                                    employees and great working environment.
+                                </p>
+                                {{-- <span class="read-more-link">Read More</span> --}}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- <section class="history-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -108,6 +187,6 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--=========Company History end============-->
    @endsection
