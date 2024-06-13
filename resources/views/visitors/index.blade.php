@@ -282,47 +282,41 @@
                <div class="carousel-inner" role="listbox">
                   <div class="item active slide-1">
                      <div class="testimonial-head">
-                        <span class="testi-img"><img src="images/testi-client-img1.png"
+                        <span class="testi-img"><img src="images\neel-kanth-steel.jpg"
                               class="img-responsive img-circle" alt="testimonial-image"></span>
                         <div class="testi-text">
-                           <h5>Edward Brown</h5>
-                           <span class="testi-designation">Designation</span>
+                           <h5>Neel Kanth Steel</h5>
+                           <span class="testi-designation">Guna,India</span>
                         </div>
                      </div>
-                     <p>" Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
-                        Consect petur adipiscing elit. "
+                     <p>" We are pleased with the barbed wire we received after getting positive feedback from our buyers our trust built up
+                    towards your products and company. "
                      </p>
                   </div>
                   <div class="item slide-2">
                      <div class="testimonial-head">
-                        <span class="testi-img"><img src="images/testi-client-img2.jpg"
+                        <span class="testi-img"><img src="images\udairam-sons.jpg"
                               class="img-responsive img-circle" alt="testimonial-image"></span>
                         <div class="testi-text">
-                           <h5>Gordon Bond</h5>
-                           <span class="testi-designation">Designation</span>
-                        </div>
+                           <h5>Udairam & Sons</h5>
+                           <span class="testi-designation">Balotra (Raj.), India</span>
+                        </div>  
                      </div>
-                     <p>" Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
-                        Consect petur adipiscing elit. "
+                     <p>" We are getting a regular supply of your quality products, which are regularly increasing in demand by customers to make
+                    our trust with your company. "
                      </p>
                   </div>
                   <div class="item slide-3">
                      <div class="testimonial-head">
-                        <span class="testi-img"><img src="images/testi-client-img3.jpg"
+                        <span class="testi-img"><img src="images\sanjay.png"
                               class="img-responsive img-circle" alt="testimonial-image"></span>
                         <div class="testi-text">
-                           <h5>Nathan Gibson</h5>
-                           <span class="testi-designation">Designation</span>
+                           <h5>M/s. Gopi Ram Krishan <br>Gopal</h5>
+                           <span class="testi-designation">Hisar, India</span>
                         </div>
                      </div>
-                     <p>" Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
-                        Consect petur adipiscing elit. "
+                     <p>" We are working as a Dealer since the last two years. All the products manufactured by the company are of very Good
+                    quality and regularly in demand by customers."
                      </p>
                   </div>
                </div>
