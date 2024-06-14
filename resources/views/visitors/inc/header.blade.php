@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 display-block ">
-                <a href="{{ route('home') }}" class="logo"><img src="images/b-m-jain-steel-co.png" class="img-responsive"
+                <a href="{{ route('home') }}" class="logo"><img src="{{ config('app.url') }}/images/b-m-jain-steel-co.png" class="img-responsive"
                         alt="logo"></a>
             </div>
             <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12 pull-right display-block">

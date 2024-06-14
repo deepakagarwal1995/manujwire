@@ -33,6 +33,7 @@ Route::view('/nail-wire', 'visitors.nailwire')->name('nail-wire');
 Route::view('/commercial-gi-wire', 'visitors.commercialwire')->name('commercial-gi-wire');
 Route::view('/redraw-wire', 'visitors.redraw')->name('redraw-wire');
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
+Route::get('blog/{id}', [BlogController::class, 'showBlog'])->name('blog.show');
 Route::post('form-action', [EnquiryController::class, 'store'])->name('formaction');
 
 Route::group(['prefix' => 'admin'], function () {

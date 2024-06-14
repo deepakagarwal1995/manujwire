@@ -2,12 +2,12 @@
 @section('content')
 <!--=========Banner Start============-->
 <div class="inner-pages-bnr">
-    <img src="images/blog-banner.jpg" class="img-responsive" alt="blog-banner-image">
+    <img src="{{ config('app.url') }}/images/blog-banner.jpg" class="img-responsive" alt="blog-banner-image">
     <div class="banner-caption">
         <h1>Blog</h1>
         <ul class="breadcumb">
             <li><a href="{{ 'home' }}">Home</a> - </li>
-            <li>Blog</li>
+            <li>{{ $blog->title }}</li>
         </ul>
     </div>
 </div>
@@ -18,7 +18,7 @@
 
             <!--=========Blog Right Start============-->
             <div class="col-md-8">
-                @foreach ($blogs as $blog )
+
                 <div class="blog-list-cl ">
                     <div class="blog-img">
                         <span class="image_hover ">
@@ -34,18 +34,11 @@
                         </div>
                     </div>
                     <div class="blog-head">
-                        <h6 class="wdt-100"><a href="{{ route('blog.show',$blog->id) }}">{{ $blog->title }}</a></h6>
-                        {{-- <ul class="blog-wdt">
-                            <li class="date_icon">JULY 15, 2023</li>
-                            <li class="author_icon">JOHN Dyer</li>
-                            <li class="blog_icon">BLOG</li>
-                        </ul> --}}
+                        <h6 class="wdt-100">{{ $blog->title }}</h6>
                     </div>
-                    <p>{{ Str::words($blog->body, 70 , '...') }}</p>
-                    <p><a href="{{ route('blog.show',$blog->id) }}">Read More</a></p>
+                    <p>{{ $blog->body }}</p>
                 </div>
-                @endforeach
-                {{ $blogs->links() }}
+
             </div>
             <!--=========Blog Right end============-->
             <!--=========Blog Left Start============-->

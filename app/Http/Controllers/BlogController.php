@@ -18,4 +18,15 @@ class BlogController extends Controller
             return redirect()->back();
         }
     }
+
+    public function showBlog($id)
+    {
+        try {
+            $blog = Post::where('id', $id)->first();
+            $features = Post::where('featured', 1)->get();
+            return view('visitors.singleBlog',compact('blog','features'));
+        } catch (Exception $e) {
+            return redirect()->back();
+        }
+    }
 }
