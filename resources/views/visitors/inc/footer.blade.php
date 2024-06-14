@@ -10,16 +10,19 @@
     <div class="ftr-section">
         <div class="container">
             <ul class="footer-info">
-                <li class="ftr-loc" style="color: white">G-103 Pearl Emerald <br>Building Jaipur House, <br>Agra (UP)</li>
+                <li class="ftr-loc" style="color: white">G-103 Pearl Emerald <br>Building Jaipur House, <br>Agra (UP)
+                </li>
                 <li class="ftr-phn"><a href="tel: +91 74550 29003" style="color: white">+91 74550 29003</a></li>
-                <li class="ftr-msg"><a href="mailto:exports@bmjainsteel.com"style="color: white">exports@bmjainsteel</a></li>
-                <li class="ftr-support"style="color: white">9 To 5 Working Hours</li>
+                <li class="ftr-msg"><a href="mailto:exports@bmjainsteel.com"
+                        style="color: white">exports@bmjainsteel</a></li>
+                <li class="ftr-support" style="color: white">9 To 5 Working Hours</li>
             </ul>
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12  ftr-about-text">
                     <h6>About Us</h6>
-                    <p class="marbtm20 line-height26">B M Jain Steel Co. is a leading Barbed Wire Mesh Manufacturers in Agra. Our company is known for supplying a wide range
-                    of superior quality fence and wire mesh products since 1995.</p>
+                    <p class="marbtm20 line-height26">B M Jain Steel Co. is a leading Barbed Wire Mesh Manufacturers in
+                        Agra. Our company is known for supplying a wide range
+                        of superior quality fence and wire mesh products since 1995.</p>
                     <a class="ftr-read-more" href="{{ route('company') }}">Read More</a>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 ftr-sol-column">
@@ -55,8 +58,8 @@
                         <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
-                    <span class="ftr-logo img"><a href="{{ route('home') }}"><img src="images/logo-white.png" class="img-responsive"
-                            alt="logo-image"></a></span>
+                    <span class="ftr-logo img"><a href="{{ route('home') }}"><img src="images/logo-white.png"
+                                class="img-responsive" alt="logo-image"></a></span>
                 </div>
             </div>
             <div class="footer-btm">
@@ -64,8 +67,8 @@
                     <p>Copyright © 2024 Bm Jain Steel.All Rights Reserved.</p>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 pad-left_zero pad-right_zero pull-right">
-                    <p class="text-right">Developed by: <a
-                            href="https://themeforest.net/user/themechampion">SVT India</a></p>
+                    <p class="text-right">Developed by: <a href="https://themeforest.net/user/themechampion">SVT
+                            India</a></p>
                 </div>
             </div>
         </div>
@@ -85,3 +88,5 @@
         </div>
     </div>
 </div>
+
+

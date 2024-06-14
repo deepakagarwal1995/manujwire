@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EnquiryController;
 
@@ -31,9 +32,9 @@ Route::view('/ms-welded-wire-mesh', 'visitors.mswire')->name('ms-welded-wire-mes
 Route::view('/nail-wire', 'visitors.nailwire')->name('nail-wire');
 Route::view('/commercial-gi-wire', 'visitors.commercialwire')->name('commercial-gi-wire');
 Route::view('/redraw-wire', 'visitors.redraw')->name('redraw-wire');
+Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::post('form-action', [EnquiryController::class, 'store'])->name('formaction');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
-

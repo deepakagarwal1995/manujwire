@@ -60,6 +60,7 @@
                             <li><a href="{{ route('redraw-wire') }}">Redraw Wire</a></li>
                      </ul>
                   </li>
+                  <li><a href="{{ route('blog') }}">Blogs</a></li>
                   <li><a href="{{ route('distributor') }}">Become A Distributor</a></li>
 
                             <li><a href="{{ route('contact') }}">contact us</a></li>

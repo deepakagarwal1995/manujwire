@@ -56,7 +56,6 @@
     @include('visitors.inc.footerlinks')
     @yield('scripts')
     <!-- Latest jQuery -->
-
 </body>
 
 </html>
