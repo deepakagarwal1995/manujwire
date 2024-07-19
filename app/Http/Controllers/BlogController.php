@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Http\Controllers;
-
 use Exception;
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
